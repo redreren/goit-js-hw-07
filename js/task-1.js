@@ -38,9 +38,7 @@
 // Категория: Животные
 // Количество элементов: 4
 
-// console.log(document);
 const listRef = document.querySelector("#categories");
-// console.dir(list);
 const amountOfCategories = listRef.children.length;
 console.log(`В списке ${amountOfCategories} категории.`);
 

@@ -7,6 +7,6 @@ const textRef = document.querySelector("#text");
 
 inputRef.addEventListener("input", () => {
   //   console.dir(inputRef);
-  console.log(inputRef.value);
+  // console.log(inputRef.value);
   textRef.style.fontSize = inputRef.value + "px";
 });
